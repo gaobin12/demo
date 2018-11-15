@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		ul, ol {
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+		}
+		.box {
+			width: 100%;
+			/*读取子盒子最高高度撑开父盒子*/
+			overflow: hidden;
+		}
+		.box p.no1 {
+			float: left;
+			width: 30%;
+			height: 300px;
+			background-color: red;
+			padding-bottom: 1000px;
+			margin-bottom: -1000px;
+		}
+		.box p.no2 {
+			float: left;
+			width: 40%;
+			height: 400px;
+			background-color: green;
+			padding-bottom: 2000px;
+			margin-bottom: -2000px;
+		}
+		.box p.no3 {
+			float: left;
+			width: 30%;
+			height: 600px;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<p class="no1"></p>
+		<p class="no2"></p>
+		<p class="no3"></p>
+	</div>
+	
+</body>
+</html>
