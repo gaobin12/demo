@@ -14,7 +14,7 @@ git status 查看状态
 
 git commit -m "" 纳入版本库
 
-git remote add origin https://github/gaobin12/demo 建立连接
+git remote add origin https://github.com/gaobin12/demo 建立连接
 
 git remote -v 查看连接
 
