@@ -38,6 +38,8 @@ vim README.md创建readme文件并进入vim编辑器
 
 i插入 o也是插入
 
+git clone 地址 将远程github中的项目 克隆到本地
+
 先按esc 然后:wq保存并退出 ：q!强制退出  要是没反应还可以esc+ZZ
 
 cat READNE.md查看文件
