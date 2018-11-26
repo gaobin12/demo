@@ -183,3 +183,8 @@ git remote remove origin
 2018/11/24
 
 有些累了 明天继续
+
+git提供了一个预览项目的网址http://htmlpreview.github.io/
+
+我们可以在输入框中，输入首页地址预览页面
+
