@@ -201,4 +201,22 @@ Git鼓励大量使用分支：
 合并某分支到当前分支：git merge <name>
   
 删除分支：git branch -d <name>
+  
+#解决git push 报错的问题
+
+线下和线上版本 不一致时无法推送 
+
+第一步 先将线上的内容pull --rebase
+
+第二步解决冲突 
+
+第三步git add .
+
+第四步git rebase --continue
+
+注意：第四步很重要 成功之后 发现只剩master后面没有其他东西了 （不需要再git commit -m ""）
+
+第五步 重新git push 即可
+
+
 
