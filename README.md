@@ -218,7 +218,8 @@ Git鼓励大量使用分支：
 
 第五步 重新git push 即可
 
-
+使用git比较两个文件
+diff index.html index_web.html // 两个文件之间用空格隔开
 #操作失误 处理办法 
 
 通过 git rebase --abort 流产 重新做 即可
